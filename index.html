@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- PRIMARY SEO -->
+    <title>Less ch4OS | Engineering Intelligence House & ESENCIA Framework</title>
+    <meta name="description" content="Engineering Intelligence House specializing in AI-augmented development, the ESENCIA Framework for cognitive navigation, and the D.B.V.A. Operational Kernel.">
+    <meta name="keywords" content="ESENCIA Framework, DBVA OS, Drizzle ORM Performance, Cognitive Load Management, AI Engineering, Database Optimization, Sergio Romano">
+    <meta name="author" content="Sergio Romano">
+    <link rel="canonical" href="https://lessch4os.github.io">
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:title" content="Less ch4OS | Engineering Intelligence House">
+    <meta property="og:description" content="Distill noise. Install flow. Biological OS and Strategic Execution for high-performance engineering.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lessch4os.github.io">
+
+    <!-- AEO / STRUCTURED DATA (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Less ch4OS",
+      "url": "https://lessch4os.github.io",
+      "founder": {
+        "@type": "Person",
+        "name": "Sergio Romano",
+        "jobTitle": "Lead Architect & Founder",
+        "url": "https://linkedin.com/in/sergiohromano"
+      },
+      "description": "An engineering intelligence house reducing technical and biological entropy through the ESENCIA Framework and D.B.V.A. Operating System.",
+      "knowsAbout": [
+        "Cognitive Sustainability",
+        "AI Strategic Partnership",
+        "Database Performance Optimization",
+        "Drizzle ORM",
+        "High-performance engineering"
+      ]
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; color: #1a1a1a; line-height: 1.6; background-color: #ffffff; }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+        .container { max-width: 1000px; }
+        
+        @media (min-width: 1024px) {
+            .layout { display: grid; grid-template-columns: 240px 1fr; gap: 5rem; }
+            .sidebar { position: sticky; top: 2rem; height: fit-content; }
+        }
+        
+        .mark-4 {
+            width: 32px; height: 32px; background: #1a1a1a; color: white;
+            display: flex; align-items: center; justify-content: center;
+            font-family: 'JetBrains Mono', monospace; font-weight: bold; border-radius: 2px;
+        }
+
+        .protocol-card { border-left: 1px solid #f1f5f9; padding-left: 1.5rem; transition: all 0.3s ease; }
+        .protocol-card:hover { border-left-color: #1a1a1a; background-color: #fafafa; }
+        
+        .bg-dots {
+            background-image: radial-gradient(circle, #e2e8f0 0.8px, transparent 0.8px);
+            background-size: 24px 24px;
+        }
+
+        hr { border: 0; border-top: 1px solid #f1f5f9; margin: 3rem 0; }
+        
+        .artifact-badge {
+            font-size: 0.65rem; font-weight: 800; letter-spacing: 0.1em;
+            padding: 2px 8px; border-radius: 4px; border: 1px solid #e2e8f0;
+            text-transform: uppercase;
+        }
+
+        .flow-step { font-size: 0.55rem; font-weight: 800; letter-spacing: 0.12em; color: #94a3b8; }
+        
+        .btn-primary {
+            background-color: #000;
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            border-radius: 2px;
+            font-size: 0.7rem;
+            font-weight: 800;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            transition: all 0.2s;
+        }
+        .btn-primary:hover { background-color: #334155; transform: translateY(-1px); }
+        .highlight { color: #1a1a1a; font-weight: 600; }
+    </style>
+</head>
+<body class="px-5 py-10 md:p-16 selection:bg-black selection:text-white overflow-x-hidden">
+
+    <div class="fixed inset-0 bg-dots pointer-events-none opacity-40 z-0"></div>
+
+    <div class="container mx-auto layout relative z-10">
+        
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar mb-20 lg:mb-0">
+            <div class="flex items-center space-x-3 mb-10 lg:mb-12">
+                <div class="mark-4">4</div>
+                <div class="font-extrabold tracking-tighter uppercase text-sm text-black">
+                    Less <span class="text-gray-300 font-medium">ch4</span>OS
+                </div>
+            </div>
+
+            <nav class="flex flex-col space-y-8 mono text-[10px] font-bold uppercase tracking-[0.2em] text-gray-400">
+                <div class="space-y-4">
+                    <p class="text-black/20 text-[9px] mb-2 lg:mb-4 uppercase tracking-widest text-center lg:text-left">Foundation</p>
+                    <a href="#esencia" class="block hover:text-black transition-colors font-bold text-black/80 underline underline-offset-4 decoration-slate-200">01_Framework_ESENCIA</a>
+                    <a href="#kernel" class="block hover:text-black transition-colors">02_Kernel_D.B.V.A.</a>
+                </div>
+                <div class="space-y-4">
+                    <p class="text-black/20 text-[9px] mb-2 lg:mb-4 uppercase tracking-widest text-center lg:text-left">Artifacts</p>
+                    <a href="#capsules" class="block hover:text-black transition-colors">03_Knowledge_Capsules</a>
+                    <a href="#tools" class="block hover:text-black transition-colors">04_Engineering_Tools</a>
+                </div>
+                <div class="space-y-4 pt-6 border-t border-gray-100">
+                    <a href="#briefing" class="block text-black hover:opacity-70 transition-opacity">The Briefing &rarr;</a>
+                </div>
+            </nav>
+
+            <div class="mt-20 pt-10 border-t border-gray-100 hidden lg:block">
+                <div class="text-[9px] text-gray-400 uppercase tracking-widest leading-loose">
+                    <p>Org: <span class="text-black font-bold">@lessch4os</span></p>
+                    <p>Mail: <span class="text-black font-bold">sergio@lessch4os.com</span></p>
+                    <p>Status: <span class="text-green-500 font-bold">Optimal_Flow</span></p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Hero -->
+            <section id="hero" class="mb-24 lg:mb-40">
+                <div class="inline-flex items-center space-x-3 bg-white border border-slate-100 px-3 py-1.5 rounded-sm mb-8 lg:mb-10 shadow-sm">
+                    <span class="mono text-[8px] sm:text-[9px] font-bold text-slate-400 uppercase tracking-[0.2em]">Engineering Intelligence Lab // v11.0</span>
+                </div>
+                <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-tighter mb-10 leading-[0.9] lg:leading-[0.85]">
+                    Distill noise.<br/>
+                    <span class="text-gray-200 italic font-light">Install flow.</span>
+                </h1>
+                <p class="text-lg lg:text-xl text-gray-500 max-w-2xl mb-12 font-light leading-relaxed">
+                    <b>Less ch4OS</b> is a specialized engineering house dedicated to reducing technical and cognitive entropy. We deploy intelligence-first frameworks to enable high-performance human-machine collaboration.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-6 items-center">
+                    <a href="mailto:sergio@lessch4os.com" class="btn-primary w-full sm:w-auto text-center">Intelligence Audit</a>
+                    <div class="hidden sm:flex items-center px-4 py-2 border border-gray-100 rounded-sm">
+                        <span class="mono text-[9px] font-bold text-slate-300 uppercase tracking-widest">sergio@lessch4os.com</span>
+                    </div>
+                </div>
+            </section>
+
+            <hr/>
+
+            <!-- 01 / Framework ESENCIA -->
+            <section id="esencia" class="mb-24 lg:mb-32 scroll-mt-20">
+                <h2 class="mono text-[11px] font-bold uppercase tracking-[0.4em] text-gray-300 mb-12 lg:mb-16">01 / The ESENCIA Framework</h2>
+                <div class="mb-12">
+                    <h3 class="text-2xl lg:text-3xl font-bold mb-6 tracking-tight italic">Productivity as a byproduct of presence.</h3>
+                    <p class="text-gray-600 font-light leading-relaxed max-w-3xl">
+                        An <span class="highlight">Agnostic Personal Navigation Framework</span>. ESENCIA protects the prefrontal cortex by managing cognitive load and energy through deliberate biological synchronization.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 py-8 border-y border-gray-100 mb-12">
+                    <div class="space-y-4">
+                        <h4 class="font-bold text-xs uppercase tracking-widest text-slate-400">The Cycle Components</h4>
+                        <div class="grid grid-cols-1 gap-y-3">
+                            <div class="flex items-start space-x-3">
+                                <span class="mono font-bold text-black text-xs">E</span>
+                                <p class="text-[11px] text-gray-500 leading-tight"><b>Evaluation:</b> Analyze reality (Weather, noise, internal energy).</p>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="mono font-bold text-black text-xs">S</span>
+                                <p class="text-[11px] text-gray-500 leading-tight"><b>Selection:</b> Choose appropriate Gear (90 / 25 / 15 / V).</p>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="mono font-bold text-black text-xs">E</span>
+                                <p class="text-[11px] text-gray-500 leading-tight"><b>Enclosure:</b> Decide mode: Action (Build) or Knowledge (Expand).</p>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="mono font-bold text-black text-xs">N</span>
+                                <p class="text-[11px] text-gray-500 leading-tight"><b>Nucleus:</b> Define a single atomic goal or expected outcome.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-y-4 flex flex-col justify-center">
+                        <div class="grid grid-cols-1 gap-y-3">
+                            <div class="flex items-start space-x-3">
+                                <span class="mono font-bold text-black text-xs">C</span>
+                                <p class="text-[11px] text-gray-500 leading-tight"><b>Cycle:</b> Deliberate and protected execution.</p>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="mono font-bold text-black text-xs">I</span>
+                                <p class="text-[11px] text-gray-500 leading-tight"><b>Interval:</b> Context-Save + Signal Diagnosis.</p>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="mono font-bold text-black text-xs">A</span>
+                                <p class="text-[11px] text-gray-500 leading-tight"><b>Adjustment:</b> Strategic decision for the next block.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://github.com/lessch4os/esencia-framework" target="_blank" class="mono text-[10px] font-bold text-black underline underline-offset-8 decoration-slate-200 hover:decoration-black transition-all">
+                    VIEW_FRAMEWORK_REPO &rarr;
+                </a>
+                
+                <div class="mt-12 flex flex-wrap items-center gap-x-3 gap-y-4 py-8 border-y border-gray-100 justify-center sm:justify-start text-center">
+                    <span class="mono text-[8px] font-extrabold tracking-widest text-slate-400 uppercase w-full sm:w-auto mb-1 sm:mb-0">Workflow</span>
+                    <span class="flow-step">E_VALUATION</span> <span class="text-gray-200">→</span>
+                    <span class="flow-step">S_ELECTION</span> <span class="text-gray-200">→</span>
+                    <span class="flow-step">E_NCLOSURE</span> <span class="text-gray-200">→</span>
+                    <span class="flow-step">N_UCLEUS</span> <span class="text-gray-200">→</span>
+                    <span class="flow-step">C_YCLE</span> <span class="text-gray-200">→</span>
+                    <span class="flow-step">I_NTERVAL</span> <span class="text-gray-200">→</span>
+                    <span class="flow-step">A_DJUSTMENT</span>
+                </div>
+            </section>
+
+            <hr/>
+
+            <!-- 02 / Kernel D.B.V.A. -->
+            <section id="kernel" class="mb-24 lg:mb-32 scroll-mt-20">
+                <h2 class="mono text-[11px] font-bold uppercase tracking-[0.4em] text-gray-300 mb-12 lg:mb-16">02 / The D.B.V.A. Kernel v11.0</h2>
+                <p class="text-sm text-gray-500 mb-12 max-w-xl font-light leading-relaxed">
+                    The <span class="highlight">Strategic Operational Kernel</span> for AI Partnership. D.B.V.A. provides the methodology to achieve clarity and accelerated outcomes in high-complexity technical environments.
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 mb-16">
+                    <div class="protocol-card">
+                        <h4 class="font-bold text-lg mb-2 uppercase tracking-tight">Execution Modes</h4>
+                        <div class="grid grid-cols-2 gap-y-2 mt-4">
+                            <span class="text-[10px] mono font-bold text-slate-400 uppercase">Strategic Advisory</span>
+                            <span class="text-[10px] mono font-bold text-slate-400 uppercase">Tech Implementation</span>
+                            <span class="text-[10px] mono font-bold text-slate-400 uppercase">Structured Learning</span>
+                            <span class="text-[10px] mono font-bold text-slate-400 uppercase">Decision-Making</span>
+                            <span class="text-[10px] mono font-bold text-slate-400 uppercase">Automated Governance</span>
+                            <span class="text-[10px] mono font-bold text-slate-900 uppercase">Mode Weaver</span>
+                        </div>
+                    </div>
+                    <div class="protocol-card">
+                        <h4 class="font-bold text-lg mb-2 uppercase tracking-tight">Kernel Components</h4>
+                        <div class="space-y-4 mt-4">
+                            <div>
+                                <p class="mono text-[10px] font-bold text-black uppercase">L.I.T. Test</p>
+                                <p class="text-[11px] text-gray-400">Triage: Litmus / Investigate / Threshold.</p>
+                            </div>
+                            <div>
+                                <p class="mono text-[10px] font-bold text-black uppercase">P.R.E.S.S. Framework</p>
+                                <p class="text-[11px] text-gray-400">Validation: Prototype / Red-Team / Scorecard.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://github.com/lessch4os/dbva-os" target="_blank" class="mono text-[10px] font-bold text-black underline underline-offset-8 decoration-slate-200 hover:decoration-black transition-all">
+                    VIEW_KERNEL_REPO &rarr;
+                </a>
+            </section>
+
+            <hr/>
+
+            <!-- 03 / Knowledge Capsules (Consolidated Registry) -->
+            <section id="capsules" class="mb-24 lg:mb-32 scroll-mt-20">
+                <h2 class="mono text-[11px] font-bold uppercase tracking-[0.4em] text-gray-300 mb-12 lg:mb-16">03 / Knowledge Capsules</h2>
+                <p class="text-gray-400 text-sm mb-12 font-light italic leading-relaxed">Synthesized research, specifications, and codified learning artifacts encoded in Markdown.</p>
+                
+                <div class="space-y-4">
+                    <!-- ESENCIA Capsule -->
+                    <div class="border border-gray-100 p-8 lg:p-10 rounded-sm hover:border-black transition-all flex flex-col md:flex-row justify-between items-start md:items-center group gap-6">
+                        <div class="flex-grow">
+                            <div class="flex flex-wrap items-center gap-3 mb-2">
+                                <h3 class="font-bold text-xl lg:text-2xl uppercase tracking-tighter">ESENCIA Framework</h3>
+                                <span class="artifact-badge">Framework / Documentation</span>
+                            </div>
+                            <p class="text-xs text-gray-400 max-w-sm font-light">The complete documentation for the Agnostic Personal Navigation Framework. Focused on managing cognitive load and biological energy.</p>
+                        </div>
+                        <a href="https://github.com/lessch4os/esencia-framework" target="_blank" class="mono text-[10px] font-bold text-gray-300 group-hover:text-black underline underline-offset-8 whitespace-nowrap">View Capsule &rarr;</a>
+                    </div>
+
+                    <!-- DBVA Capsule -->
+                    <div class="border border-gray-100 p-8 lg:p-10 rounded-sm hover:border-black transition-all flex flex-col md:flex-row justify-between items-start md:items-center group gap-6">
+                        <div class="flex-grow">
+                            <div class="flex flex-wrap items-center gap-3 mb-2">
+                                <h3 class="font-bold text-xl lg:text-2xl uppercase tracking-tighter">D.B.V.A. OS</h3>
+                                <span class="artifact-badge">Kernel / Specification</span>
+                            </div>
+                            <p class="text-xs text-gray-400 max-w-sm font-light">Strategic operational kernel for AI Partnership. Methodology for achieving clarity and accelerated outcomes.</p>
+                        </div>
+                        <a href="https://github.com/lessch4os/dbva-os" target="_blank" class="mono text-[10px] font-bold text-gray-300 group-hover:text-black underline underline-offset-8 whitespace-nowrap">View Capsule &rarr;</a>
+                    </div>
+
+                    <!-- Hard-boiled Drizzle -->
+                    <div class="border border-gray-100 p-8 lg:p-10 rounded-sm hover:border-black transition-all flex flex-col md:flex-row justify-between items-start md:items-center group gap-6">
+                        <div class="flex-grow">
+                            <div class="flex flex-wrap items-center gap-3 mb-2">
+                                <h3 class="font-bold text-xl lg:text-2xl uppercase tracking-tighter">Hard-boiled Drizzle</h3>
+                                <span class="artifact-badge">Performance / Research</span>
+                            </div>
+                            <p class="text-xs text-gray-400 max-w-sm font-light">Battle-tested performance patterns for Drizzle ORM. Distilling database optimization into executable insights.</p>
+                        </div>
+                        <a href="https://github.com/lessch4os/hard-boiled-drizzle" target="_blank" class="mono text-[10px] font-bold text-gray-300 group-hover:text-black underline underline-offset-8 whitespace-nowrap">View Research &rarr;</a>
+                    </div>
+
+                    <!-- AI Playbook -->
+                    <div class="border border-gray-100 p-8 lg:p-10 rounded-sm hover:border-black transition-all flex flex-col md:flex-row justify-between items-start md:items-center group gap-6">
+                        <div class="flex-grow">
+                            <div class="flex flex-wrap items-center gap-3 mb-2">
+                                <h3 class="font-bold text-xl lg:text-2xl uppercase tracking-tighter">AI Playbook</h3>
+                                <span class="artifact-badge">Synthesis / Markdown</span>
+                            </div>
+                            <p class="text-xs text-gray-400 max-w-sm font-light">The foundational repository for D.B.V.A. Kernel prompts and playbooks. Refined through AI-human synthesis sessions.</p>
+                        </div>
+                        <a href="https://github.com/lessch4os/ai-first-playbook" target="_blank" class="mono text-[10px] font-bold text-gray-300 group-hover:text-black underline underline-offset-8 whitespace-nowrap">Explore Repository &rarr;</a>
+                    </div>
+                </div>
+            </section>
+
+            <hr/>
+
+            <!-- 04 / Engineering Tools -->
+            <section id="tools" class="mb-24 lg:mb-32 scroll-mt-20">
+                <h2 class="mono text-[11px] font-bold uppercase tracking-[0.4em] text-gray-300 mb-12 lg:mb-16">04 / Engineering Tools</h2>
+                <div class="space-y-4">
+                    <div class="border border-gray-100 p-8 lg:p-10 rounded-sm hover:border-black transition-all flex flex-col md:flex-row justify-between items-start md:items-center group gap-6">
+                        <div class="flex-grow">
+                            <div class="flex flex-wrap items-center gap-3 mb-2">
+                                <h3 class="font-bold text-xl lg:text-2xl uppercase tracking-tighter">ScriptIt</h3>
+                                <span class="artifact-badge">TUI / Executable</span>
+                            </div>
+                            <p class="text-xs text-gray-400 max-w-sm font-light">A Bun-powered TUI designed to unify project scripts. Designed for modern infra (sst.dev) to eliminate setup friction.</p>
+                        </div>
+                        <a href="https://github.com/lessch4os/scriptit" target="_blank" class="mono text-[10px] font-bold text-gray-300 group-hover:text-black underline underline-offset-8 whitespace-nowrap">View Source &rarr;</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="pt-16 pb-24 border-t border-gray-100 flex flex-col lg:flex-row justify-between items-center gap-8">
+                <div class="flex items-center space-x-3">
+                    <div class="mark-4">4</div>
+                    <div class="mono text-[9px] font-bold uppercase tracking-widest text-slate-400 text-center lg:text-left">
+                        &copy; <span id="year"></span> Less ch4OS Engineering House.<br/>Distilled Intelligence.
+                    </div>
+                </div>
+                <div class="flex flex-wrap justify-center space-x-6 lg:space-x-10 mono text-[10px] font-bold uppercase tracking-widest text-gray-300">
+                    <a href="https://github.com/lessch4os" target="_blank" class="hover:text-black transition-colors">GitHub</a>
+                    <a href="https://dev.to/sergiohromano" target="_blank" class="hover:text-black transition-colors">Dev.to</a>
+                    <a href="https://linkedin.com/in/sergiohromano" target="_blank" class="hover:text-black transition-colors">LinkedIn</a>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
