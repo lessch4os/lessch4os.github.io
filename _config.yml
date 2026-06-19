@@ -1,0 +1,27 @@
+title: Less ch4OS
+email: sergio@lessch4os.com
+description: Engineering Intelligence House & ESENCIA Framework
+baseurl: ""
+url: "https://lessch4os.com"
+
+github:
+  owner_name: lessch4os
+  repository: lessch4os.github.io
+
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+permalink: /blog/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Sergio Romano
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
