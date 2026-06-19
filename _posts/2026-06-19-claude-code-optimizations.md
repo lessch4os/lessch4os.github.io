@@ -81,7 +81,9 @@ Steps:
 ![Image](/posts/resources/ai-talk-prompt-calibration.png)
 
 **Results:**
+
 | Metric | Unbounded | Optimized |
+| :--- | :--- | :--- |
 | Turns to Success | 2-3 | 1 |
 | Execution Time | >15s (timeout) | 404-857ms |
 | Strategy | N+1 loops | CTE + batch math |
