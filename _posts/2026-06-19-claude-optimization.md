@@ -13,7 +13,7 @@ Sometimes, that "how-to" reduces to simple mental models. To kick things off, I 
 
 But to get there, we first need to understand the problem—the trap.
 
-![Image](../posts/resources/mr_burns_diseases.webp)
+![Image](/posts/resources/mr_burns_diseases.webp)
 
 This image is from The Simpsons: it's Mr. Burns' diseases all fighting *through* the door to enter his body. They look completely stuck; they can't do anything because there are so many of them trying to squeeze in at the same time. 
 
@@ -37,7 +37,7 @@ I have a hypothesis that having a mental model can save your context. So let's g
 
 ## Foundations
 
-![Image](../posts/resources/anthropic-prompting-context-engineering.webp)  
+![Image](/posts/resources/anthropic-prompting-context-engineering.webp)  
 *Source: [Anthropic - Effective Context Engineering for AI Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)*
 
 Hallucinating AI, a human brain exploding because there are too many open tabs and agents. Did you know that the human mind can actively process only about 7 things at once?
@@ -52,7 +52,7 @@ What doesn't get measured doesn't exist, and what isn't understood can't be meas
 
 Showtime
 
-![Image](../posts/resources/showtime.jpg)
+![Image](/posts/resources/showtime.jpg)
 
 Remember when I said we are going to build a compiler? We will transform artifacts into code. How? We will take a simple, raw, one-shot prompt and use a structured process to optimize artifact by artifact until we get a calibrated prompt that hits the target on the first run.
 
@@ -78,7 +78,7 @@ Steps:
     - Gate 3: Edge-Case Test Loop
 6. Apply Constraints: "No conversational fluff; just output the production-ready code after all gates succeed." 
 
-![Image](../posts/resources/ai-talk-prompt-calibration.png)
+![Image](/posts/resources/ai-talk-prompt-calibration.png)
 
 **Results:**
 | Metric | Unbounded | Optimized |
