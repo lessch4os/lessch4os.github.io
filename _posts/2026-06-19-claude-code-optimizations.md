@@ -1,5 +1,5 @@
 ---
-title: Claude Code optimizations
+title: Claude Code Optimizations
 author: Sergio Romano
 date: 2026-06-19
 layout: post
